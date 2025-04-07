@@ -1,0 +1,19 @@
+[project]
+name = "LLM-Agents"
+version = "0.1.0"
+description = "Learning LLM React-Agents"
+authors = [
+    {name = "Tejas Vedagiri", email = "tejasvedagiri1223@gmail.com"},
+]
+dependencies = ["langchain>=0.3.23", "langchain-openai>=0.3.12", "black>=25.1.0", "python-dotenv>=1.1.0", "pydantic>=2.11.2"]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
